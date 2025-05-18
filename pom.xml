@@ -82,6 +82,7 @@
         <stax2.version>4.2.2</stax2.version>
         <aws-java-sdk.version>1.12.780</aws-java-sdk.version>
         <jgrapht.version>1.5.2</jgrapht.version>
+        <lombok.version>1.18.30</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -249,7 +250,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
+                <version>3.11.0</version>
                 <configuration>
                     <source>${java.source.version}</source>
                     <target>${java.target.version}</target>
